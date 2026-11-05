@@ -1,0 +1,43 @@
+{
+  "family": "AP",
+  "n": 30,
+  "objective_counts": [
+    3,
+    4
+  ],
+  "workers": 2,
+  "methods": [
+    "standard",
+    "block2"
+  ],
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "threads_per_worker": 1,
+  "order": [
+    [
+      3,
+      "standard"
+    ],
+    [
+      3,
+      "block2"
+    ],
+    [
+      4,
+      "standard"
+    ],
+    [
+      4,
+      "block2"
+    ]
+  ],
+  "authorization": "User instruction: repeat the same AP30 3/4-objective Standard and Block2 runs using two workers.",
+  "four_objective_input_origin": "SYNTHETIC_DERIVED_OBJECTIVE_EXTENSION",
+  "protocol": "V03_R1_1200S",
+  "input_policy": "Exact input bytes and solver sources reused from completed four-worker cohort."
+}

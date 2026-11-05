@@ -1,0 +1,49 @@
+{
+  "protocol": "V03_R1_1200S",
+  "family": "AP",
+  "size": 30,
+  "objectives": 4,
+  "method": "EREN\u2013ILDO (block2)",
+  "workers": 1,
+  "threads_per_worker": 1,
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "input_sha256": "46b70079fbccbbe620d01207d4ab0d2c7272286ab85eea153deb643627522a1a",
+  "runtime_s": 1200.0949859199973,
+  "status": "RIGHT_CENSORED",
+  "audit": {
+    "audit": "PASS",
+    "checkpoints": [
+      {
+        "checkpoint_s": 300,
+        "point_count": 76,
+        "status": "RUNNING",
+        "validated_witnesses": 76
+      },
+      {
+        "checkpoint_s": 600,
+        "point_count": 123,
+        "status": "RUNNING",
+        "validated_witnesses": 123
+      },
+      {
+        "checkpoint_s": 900,
+        "point_count": 170,
+        "status": "RUNNING",
+        "validated_witnesses": 170
+      },
+      {
+        "checkpoint_s": 1200,
+        "point_count": 211,
+        "status": "RIGHT_CENSORED",
+        "validated_witnesses": 211
+      }
+    ],
+    "terminal_witnesses_validated": 211
+  }
+}

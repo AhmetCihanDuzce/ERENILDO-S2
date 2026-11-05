@@ -1,0 +1,49 @@
+{
+  "protocol": "V03_R1_1200S",
+  "family": "AP",
+  "size": 30,
+  "objectives": 4,
+  "method": "standard",
+  "workers": 1,
+  "threads_per_worker": 1,
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "input_sha256": "46b70079fbccbbe620d01207d4ab0d2c7272286ab85eea153deb643627522a1a",
+  "runtime_s": 1200.1604891680036,
+  "status": "RIGHT_CENSORED",
+  "audit": {
+    "audit": "PASS",
+    "checkpoints": [
+      {
+        "checkpoint_s": 300,
+        "point_count": 72,
+        "status": "RUNNING",
+        "validated_witnesses": 72
+      },
+      {
+        "checkpoint_s": 600,
+        "point_count": 111,
+        "status": "RUNNING",
+        "validated_witnesses": 111
+      },
+      {
+        "checkpoint_s": 900,
+        "point_count": 143,
+        "status": "RUNNING",
+        "validated_witnesses": 143
+      },
+      {
+        "checkpoint_s": 1200,
+        "point_count": 176,
+        "status": "RIGHT_CENSORED",
+        "validated_witnesses": 176
+      }
+    ],
+    "terminal_witnesses_validated": 176
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_url": "https://raw.githubusercontent.com/srplsyn/MOOLibrary/master/ap.zip",
+  "source_member": "AP/AP_p-3_n-30_ins-1.dat",
+  "archive_sha256": "69ff6ac58eb0fad1d81b2bd6f5f789d443d56bb330b0e96e0cbf67b0b7099bc9",
+  "raw_dat_sha256": "0628242f60a463620b1d4408f989f5f4a804f5aaba690f6f74af51714fb8254b",
+  "input_sha256": "12a1075b7a34d39fd9bfd8a95d0fd5e79d4e56b7b8ec124e5bfd94d1a96973ef",
+  "input_origin": "LITERATURE_BENCHMARK",
+  "created_before_performance_run": true,
+  "generation": null,
+  "relationship": "Official three-objective benchmark, unchanged"
+}

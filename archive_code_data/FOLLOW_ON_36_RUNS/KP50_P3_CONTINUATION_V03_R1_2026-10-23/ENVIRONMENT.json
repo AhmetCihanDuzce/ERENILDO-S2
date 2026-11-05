@@ -1,0 +1,60 @@
+{
+  "protocol_revision": "V03_R1_1200S_2026-10-23_KP50_P3_W1",
+  "method": "standard",
+  "family": "KP",
+  "instance": "KP_p3_n50_ins1",
+  "workers": 1,
+  "solver_threads": 1,
+  "input_sha256": "ea60a4c882df8b573b9bc0419176fcffbc946855c824899c6289e2098ab41717",
+  "budget_s": 1200.0,
+  "checkpoints_s": [
+    300.0,
+    600.0,
+    900.0,
+    1200.0
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "worker_cpus": [
+    0
+  ],
+  "coordinator_cpu": 8,
+  "hostname": "11ee0a63a33f",
+  "cpu_quota": "800000 100000",
+  "memory_limit": "8589934592",
+  "clock_scope": "before worker process construction/start through controller stop; parent imports and input parsing excluded; checkpoint and durable journal I/O included",
+  "source_sha256": {
+    "generalized_pea_blocklex.py": "20e68ca3faf7248faa54d5836551ec37f8da3b3f850cf5bf974fb993dd4061bf",
+    "pea_highs.py": "7c9968897828b3cdf75a03dbc5f69e916f1766b618996859d42b708d52a34f40",
+    "pea_model.py": "d2e00f40aa68672bef3fdcfdbf579ef0e795bb2fa21f0afc5d69876f5f647163",
+    "run_checkpoint.py": "f56dc431755b2b499771d4b82810a930f22669981b288683ca3d922da4490e50",
+    "run_checkpoint_multi.py": "d3eda79b9617612bff76331dac129786ead9926caeaf689e478ec7bf3fb86d9b",
+    "sota_python_common.py": "aa0d1ed902868dac67bb9cbfec49212631e057815845db971eb3d96c6fc323a7"
+  },
+  "start_utc": "2026-10-23T19:52:39Z",
+  "elapsed_s": 480.6817278840026,
+  "shutdown_elapsed_s": 480.8037515160031,
+  "search_completed_elapsed_s": 480.62758037899766,
+  "status": "SEARCH_COMPLETED",
+  "counters": {
+    "bb_nodes": 117250,
+    "completed_oracle_solver_s": 471.17160027298087,
+    "feasible": 971,
+    "infeasible": 44,
+    "milp_calls": 2957,
+    "oracle_wall_s": 477.0419312790618,
+    "scalarizations": 1015
+  }
+}

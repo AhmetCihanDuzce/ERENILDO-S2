@@ -1,0 +1,42 @@
+{
+  "family": "AP",
+  "n": 30,
+  "objective_counts": [
+    3,
+    4
+  ],
+  "workers": 4,
+  "methods": [
+    "standard",
+    "block2"
+  ],
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "threads_per_worker": 1,
+  "order": [
+    [
+      3,
+      "standard"
+    ],
+    [
+      3,
+      "block2"
+    ],
+    [
+      4,
+      "standard"
+    ],
+    [
+      4,
+      "block2"
+    ]
+  ],
+  "authorization": "User requested AP30 using both methods with four workers; objectives follow existing 3/4-objective panel.",
+  "four_objective_input_origin": "SYNTHETIC_DERIVED_OBJECTIVE_EXTENSION",
+  "protocol": "V03_R1_1200S"
+}

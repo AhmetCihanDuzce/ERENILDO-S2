@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "highs": "No module named 'highspy'",
+  "cpu_quota_cgroup": "800000 100000",
+  "memory_limit_bytes": "8589934592",
+  "visible_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "worker_cpu_affinity_policy": "first N sorted allowed CPUs assigned to workers; final sorted CPU assigned to coordinator",
+  "solver_threads_per_worker": 1,
+  "measurement_scope": "before worker process construction/start through controller stop; parent imports and input parsing excluded; checkpoint and durable journal I/O included"
+}

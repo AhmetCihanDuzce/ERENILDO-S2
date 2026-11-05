@@ -1,0 +1,30 @@
+{
+  "family": "KP",
+  "n": 50,
+  "p": 3,
+  "instance_id": "KP_p-3_n-50_ins-1",
+  "selection_rule": "First available published instance at n=50 (ins-1); selection frozen before performance run; no outcome-based selection.",
+  "input_origin": "LITERATURE_BENCHMARK",
+  "source_archive": "kp(1).zip",
+  "source_archive_sha256": "2143aac0ec5c6fc8b4a29f6845cc3287f19c8d9912d231354a196a850f9ba507",
+  "source_member": "KP/KP_p-3_n-50_ins-1.dat",
+  "source_member_sha256": "0f371107906bc8d2c4a8b2ec1282f04f07b3f4247a7a44fedbf486ac6cec2461",
+  "normalized_input_sha256": "ea60a4c882df8b573b9bc0419176fcffbc946855c824899c6289e2098ab41717",
+  "source_archive_url": "https://raw.githubusercontent.com/srplsyn/MOOLibrary/master/kp.zip",
+  "normalization": "Parsed p,n,capacity, profit matrix and weight vector from the benchmark member; no data values altered.",
+  "frozen_utc": "2026-10-23T19:52:35.025477+00:00",
+  "run_plan": {
+    "workers": 1,
+    "solver_threads_per_worker": 1,
+    "method": "standard",
+    "budget_s": 1200,
+    "checkpoints_s": [
+      300,
+      600,
+      900,
+      1200
+    ],
+    "protocol": "V03 R1 1200s",
+    "stop_after_this_method": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "protocol": "V03_R1_1200S",
+  "family": "KP",
+  "n": 50,
+  "p": 3,
+  "instance": "KP_p-3_n-50_ins-1",
+  "input_sha256": "ea60a4c882df8b573b9bc0419176fcffbc946855c824899c6289e2098ab41717",
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "threads_per_worker": 1,
+  "completed_runs": [
+    {
+      "workers": 1,
+      "method": "standard",
+      "status": "SEARCH_COMPLETED"
+    },
+    {
+      "workers": 1,
+      "method": "block2",
+      "status": "SEARCH_COMPLETED"
+    },
+    {
+      "workers": 2,
+      "method": "standard",
+      "status": "SEARCH_COMPLETED"
+    },
+    {
+      "workers": 2,
+      "method": "block2",
+      "status": "SEARCH_COMPLETED"
+    },
+    {
+      "workers": 4,
+      "method": "standard",
+      "status": "SEARCH_COMPLETED"
+    },
+    {
+      "workers": 4,
+      "method": "block2",
+      "status": "SEARCH_COMPLETED"
+    }
+  ],
+  "next_run": null,
+  "auto_advance": false,
+  "stop_after_each_method": true,
+  "synthetic_inputs_used": false,
+  "panel_status": "ALL_SIX_METHOD_WORKER_CELLS_COMPLETED"
+}

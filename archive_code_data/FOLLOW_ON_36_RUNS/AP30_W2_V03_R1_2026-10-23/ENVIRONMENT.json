@@ -1,0 +1,28 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "cpu_quota": "800000 100000",
+  "memory_limit": "8589934592",
+  "source_sha256": {
+    "pea_model.py": "d2e00f40aa68672bef3fdcfdbf579ef0e795bb2fa21f0afc5d69876f5f647163",
+    "run_checkpoint.py": "f56dc431755b2b499771d4b82810a930f22669981b288683ca3d922da4490e50",
+    "sota_python_common.py": "aa0d1ed902868dac67bb9cbfec49212631e057815845db971eb3d96c6fc323a7",
+    "pea_highs.py": "7c9968897828b3cdf75a03dbc5f69e916f1766b618996859d42b708d52a34f40",
+    "generalized_pea_blocklex.py": "20e68ca3faf7248faa54d5836551ec37f8da3b3f850cf5bf974fb993dd4061bf",
+    "run_checkpoint_multi.py": "7d1d8268fac7d2b7ad180f30e12d523a75f7bf61ba90b871c53640262653e4b7"
+  },
+  "comparison_note": "Two workers; solver/input bytes identical to four-worker cohort. Runner protocol metadata retains the original AP30_W4 source label to preserve source hashes; actual workers and CPU affinity are separately recorded per run."
+}

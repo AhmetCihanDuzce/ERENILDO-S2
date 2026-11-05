@@ -1,0 +1,67 @@
+{
+  "extension": "TSP20_EXTENSION_2026-10-22",
+  "reason": "n=20 absent from frozen prior TSP size cohorts",
+  "selection": "first registered replicate (i01) per p,n group; five registered replicates exist for each group",
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "workers": [
+    1,
+    2,
+    4
+  ],
+  "methods": [
+    "standard",
+    "block2"
+  ],
+  "protocol_revision": "V03_R1_1200S_2026-10-21_TSP_EXTENSION",
+  "inputs": [
+    {
+      "problem": "TSP",
+      "n": 20,
+      "p": 3,
+      "replicate": 1,
+      "registered_source": "TSP3_Tests/TSP3-20-1.lp",
+      "official_lp_sha256": "7cf0e8374df3c6b9f12d846d2a4e22e0d5d4c33656b662e146296e14ef74c08e",
+      "official_archive_zip_sha256": "881bd5ecda9b59b93e55f43dae529ae267272f6fd21902ca54f216050d5378b9",
+      "parsed_input_sha256": "8540fd281a07157d8f46116a745a11db2942da4d30f9795b5355bee7439d0fac",
+      "symmetric_costs": "True",
+      "cost_arc_count": "380",
+      "formulation": "mtz_binary",
+      "directed_arc_model": true
+    },
+    {
+      "problem": "TSP",
+      "n": 20,
+      "p": 4,
+      "replicate": 1,
+      "registered_source": "TSP4_Tests/TSP4-20-1.lp",
+      "official_lp_sha256": "da3263c95cd8815d7c9e6c799e319c2613e5f137dc5a2be9cdcac57e53b0f0c1",
+      "official_archive_zip_sha256": "3ae6f87b2e6bab1880ff7fec6f8bf7e78439890f2c897a352ecdbf6e5ee94de1",
+      "parsed_input_sha256": "d4d3afb77e40e1cbda6c3ba435041f808e8d2688f6010bcb1fd28090c2329c4f",
+      "symmetric_costs": "True",
+      "cost_arc_count": "380",
+      "formulation": "mtz_binary",
+      "directed_arc_model": true
+    }
+  ],
+  "runner_sources": {
+    "generalized_pea_blocklex.py": "20e68ca3faf7248faa54d5836551ec37f8da3b3f850cf5bf974fb993dd4061bf",
+    "pea_highs.py": "7c9968897828b3cdf75a03dbc5f69e916f1766b618996859d42b708d52a34f40",
+    "pea_model.py": "d2e00f40aa68672bef3fdcfdbf579ef0e795bb2fa21f0afc5d69876f5f647163",
+    "run_checkpoint_multi.py": "bde82fe02c5a04bf2280a0d553e63824bee39ab3b28ddbb7d2d155b27c2e81db",
+    "sota_python_common.py": "aa0d1ed902868dac67bb9cbfec49212631e057815845db971eb3d96c6fc323a7"
+  },
+  "validator_sha256": "c24ffeaefba38ca8597abc4fb639ca56b90a4b408a9755108f2e5d1a94f88fa1",
+  "batch_completed_utc": "2026-10-22",
+  "user_authorized_batch": true,
+  "conditions_completed": 12,
+  "independent_audits_passed": 12,
+  "all_runs_right_censored": true,
+  "source_selection_note": "One registered replicate (replicate 1) per p,n group; not all five replicates.",
+  "engine": "V03 R1 multiworker family-aware runner; binary MTZ TSP model"
+}

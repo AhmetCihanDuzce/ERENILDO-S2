@@ -1,0 +1,29 @@
+{
+  "change": "Restore TSP20 source/input folder omitted by Version 09 packaging",
+  "source_archive": "TSP20_EXTENSION_2026-10-22.zip",
+  "source_sha256": "944a868a8acbf6a936b97f1871cb3f5d8cf4e37399535f70d593ef41d95488ee",
+  "copied_members": [
+    "ENVIRONMENT.json",
+    "raw/TSP4_Tests.zip",
+    "raw/TSP3_Tests.zip",
+    "BATCH_COMPLETE.json",
+    "README.md",
+    "src/pea_model.py",
+    "src/sota_python_common.py",
+    "src/run_checkpoint_multi.py",
+    "src/generalized_pea_blocklex.py",
+    "src/pea_highs.py",
+    "OFFICIAL_INSTANCE_REGISTRY.csv",
+    "batch_progress.json",
+    "RESULTS_SUMMARY.csv",
+    "source_parser.py",
+    "PROVENANCE.json",
+    "RESULTS.md",
+    "inputs/TSP3-20-1.json",
+    "inputs/TSP4-20-1.json",
+    "validate_run_multi.py",
+    "run_batch.py",
+    "SHA256SUMS.txt"
+  ],
+  "new_solver_runs": 0
+}

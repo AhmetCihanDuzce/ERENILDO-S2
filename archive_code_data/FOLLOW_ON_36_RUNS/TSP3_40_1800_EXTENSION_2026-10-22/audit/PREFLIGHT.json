@@ -1,0 +1,15 @@
+{
+  "instance": "TSP3-40-1",
+  "n": 40,
+  "p": 3,
+  "binary_variables": 1794,
+  "linear_inequalities": 1560,
+  "equalities": 80,
+  "witness_objectives_min": [
+    20403,
+    17139,
+    20758
+  ],
+  "witness_valid": true,
+  "input_sha256": "0ce457ea3760df4f6b63e09074db304fe972c61c0d10fde82a1561af7266f513"
+}

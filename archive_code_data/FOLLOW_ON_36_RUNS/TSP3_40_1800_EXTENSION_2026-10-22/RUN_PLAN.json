@@ -1,0 +1,51 @@
+{
+  "protocol_label": "TSP3-40 one-instance six-condition extension",
+  "frozen_panel_relation": "separate extension; existing protocol retained unchanged",
+  "instance": "TSP3-40-1",
+  "n": 40,
+  "p": 3,
+  "method_map": {
+    "standard": "Standard generalized PEA",
+    "block2": "EREN-ILDO/Block2"
+  },
+  "worker_counts": [
+    1,
+    2,
+    4
+  ],
+  "budget_s": 1800,
+  "checkpoint_s": [
+    600,
+    1200,
+    1800
+  ],
+  "order": [
+    {
+      "workers": 1,
+      "method": "standard"
+    },
+    {
+      "workers": 1,
+      "method": "block2"
+    },
+    {
+      "workers": 2,
+      "method": "standard"
+    },
+    {
+      "workers": 2,
+      "method": "block2"
+    },
+    {
+      "workers": 4,
+      "method": "standard"
+    },
+    {
+      "workers": 4,
+      "method": "block2"
+    }
+  ],
+  "parallel_runs": 1,
+  "solver_threads_per_worker": 1,
+  "fresh_process_per_condition": true
+}

@@ -1,0 +1,19 @@
+{
+  "source_url": "https://raw.githubusercontent.com/srplsyn/MOOLibrary/master/ap.zip",
+  "source_member": "AP/AP_p-3_n-30_ins-1.dat",
+  "archive_sha256": "69ff6ac58eb0fad1d81b2bd6f5f789d443d56bb330b0e96e0cbf67b0b7099bc9",
+  "raw_dat_sha256": "0628242f60a463620b1d4408f989f5f4a804f5aaba690f6f74af51714fb8254b",
+  "input_sha256": "46b70079fbccbbe620d01207d4ab0d2c7272286ab85eea153deb643627522a1a",
+  "input_origin": "SYNTHETIC_DERIVED_OBJECTIVE_EXTENSION",
+  "created_before_performance_run": true,
+  "generation": {
+    "seed": 2026102301,
+    "generator": "numpy.random.Generator(PCG64(seed)).integers(1,21,size=(30,30),dtype=int64)",
+    "numpy": "2.3.5",
+    "range_inclusive": [
+      1,
+      20
+    ]
+  },
+  "relationship": "Objectives 1-3 exactly equal the official p=3 n=30 i=1 input; objective 4 is a synthetic independent integer-cost matrix following the earlier AP20/AP25 extension convention."
+}

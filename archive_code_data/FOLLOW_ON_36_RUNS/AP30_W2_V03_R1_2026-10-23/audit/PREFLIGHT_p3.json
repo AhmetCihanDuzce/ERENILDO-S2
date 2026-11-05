@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "variables": 900,
+  "objectives": 3,
+  "equality_constraints": 60,
+  "identity_assignment_objectives": [
+    363,
+    290,
+    335
+  ],
+  "input_sha256": "12a1075b7a34d39fd9bfd8a95d0fd5e79d4e56b7b8ec124e5bfd94d1a96973ef"
+}

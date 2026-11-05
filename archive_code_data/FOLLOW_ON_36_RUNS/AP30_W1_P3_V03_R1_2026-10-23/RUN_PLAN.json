@@ -1,0 +1,33 @@
+{
+  "family": "AP",
+  "n": 30,
+  "objective_counts": [
+    3
+  ],
+  "workers": 1,
+  "methods": [
+    "standard",
+    "block2"
+  ],
+  "budget_s": 1200,
+  "checkpoints_s": [
+    300,
+    600,
+    900,
+    1200
+  ],
+  "threads_per_worker": 1,
+  "order": [
+    [
+      3,
+      "standard"
+    ],
+    [
+      3,
+      "block2"
+    ]
+  ],
+  "authorization": "User instruction: run AP30 three-objective Standard and Block2 with one worker.",
+  "input_policy": "Exact official input bytes and solver sources reused from completed AP30 two- and four-worker cohorts.",
+  "protocol": "V03_R1_1200S"
+}
